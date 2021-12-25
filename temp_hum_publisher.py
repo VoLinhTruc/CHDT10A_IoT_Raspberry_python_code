@@ -27,4 +27,4 @@ while 1:
         client.publish("channels/%s/publish/%s" %(channel_ID, api_key_write), "field1=%s&field2=%s" %(temperature, humidity))
         print("temperature: {temp} oC\t humidity: {hum} %".format(temp = temperature, hum = humidity))
 
-    sleep(5)
+    sleep(20)

@@ -21,6 +21,8 @@ def incoming_handling(str):
     temperature = json_object["field1"]
     humidity = json_object["field2"]
     print("temperature: {temp} oC\t humidity: {hum} %".format(temp = temperature, hum = humidity))
+
+    
 # -----------------------------------------------------------------------------------
 
 
